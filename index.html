@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+<style>
+    * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #0a0a0a;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 10%;
+  z-index: 1;
+}
+
+.logo {
+  color: white;
+  font-size: 28px;
+  display: flex;
+  flex-shrink: 5%;
+}
+
+span {
+  color: #a8154b;
+  padding-right: 9px;
+  font-size: 29px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #a8154b;
+  transition: 0.3s;
+}
+
+button {
+  border: none;
+  background: #a8154b;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+</style>
+
+</head>
+<body>
+    <div class="hero"> 
+        
+        <nav>
+            
+            <h2 class="logo"> <span>Red</span>Ember</h2>
+            <ul>
+                <li class= home><a href="https://www.apple.com/tv-home/" target="_blank">Home</a></li>
+                <li class= about><a href="https://www.apple.com/contact/" target="_blank">About</a></li>
+                <li class= sevvice><a href="https://support.apple.com/?cid=gn-ols-home-hp-tab" target="_blank">Service</a></li>
+                <li class= more><a href="https://www.apple.com/airpods/" target="_blank">More</a></li>
+                <li class= contact><a href="https://www.apple.com/" target="_blank">shopping</a></li>
+            </ul>
+            <button type="button"> Login </button>
+            
+        </nav>
+        <img class="hero-image" src="https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700382620.jpg" alt="image">
+    </div>
+    
+  
+
+</body>
+</html>
+
+
